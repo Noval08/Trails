@@ -87,7 +87,7 @@ DARK_ROSE   = "\033[38;5;161m"
 from datetime import datetime
 import sys
 
-expiry_date = datetime(2026, 4, 10, 23, 59, 59)
+expiry_date = datetime(2027, 4, 10, 23, 59, 59)
 now = datetime.now()
 
 if now > expiry_date:
